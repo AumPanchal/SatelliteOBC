@@ -15,7 +15,3 @@ validated telemetry over UART, a Python ground station with two-way command upli
 - [ ] **Phase 4** — Bench verification (scope UART/I2C decode, ADC calibration)
 - [ ] **Phase 5** — Fault-injection demo + test report
 - [ ] **Phase 6** — Final documentation pass
-
-## License
-
-MIT — see [LICENSE](LICENSE).
