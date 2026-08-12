@@ -1,4 +1,4 @@
-# Satellite OBC — Interface Specification (Phase 0)
+# Satellite OBC — Interface Specification
 
 **Status:** Frozen — firmware and ground station build against this.
 **Rev:** B

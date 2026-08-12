@@ -8,7 +8,7 @@ validated telemetry over UART, a Python ground station with two-way command upli
 
 ## Roadmap
 
-- [x] **Phase 0** — Interface spec frozen (`docs/interface-spec.md`) PUSHED
+- [x] **Phase 0** — Interface spec frozen (`docs/interface-spec.md`) [PUSHED]
 - [x] **Phase 1** — KiCad 2-layer PCB design (schematic, layout, ERC/DRC, exports)
 - [x] **Phase 2** — STM32 firmware (drivers, CRC-16, FSM, watchdog, telemetry, fault log)
 - [x] **Phase 3** — Python ground station (live display, CRC validation, command uplink)
