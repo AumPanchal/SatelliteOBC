@@ -36,21 +36,8 @@ If a sensor fails, the two motion sensors disagree, or a value goes out of range
 
 The board sends data over UART at 115200 baud. Each message has a CRC-16 so the PC can tell if it got corrupted. The ground station can also send commands (ping, safe mode, recover, read the fault log, clear the log, reboot) and gets back an ACK or NACK.
 
-To run the ground station:
-
-```
-pip install pyserial
-python ground_station/ground_station.py COM3
-```
-
-Change COM3 to whatever port your USB-serial adapter uses. Type `help` to see the commands.
-
 ## Folders
 
 - `firmware/src`: the C code
 - `ground_station`: the Python program
 - `hardware`: KiCad files
-
-## Building the firmware
-
-I only included the source files. To build it, make an STM32CubeIDE project for the STM32F411RE and add `firmware/src` to it.
